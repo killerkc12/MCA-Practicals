@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1616842432 source:/media/kiran/New Volume/MCA/FYMCA/DS/Practicals/Assign4Q2/hello.c
+	<stdio.h>
+
+1616858879 source:/media/kiran/New Volume/MCA/FYMCA/DS/Practicals/Assign4Q2/main.c
+	<stdio.h>
+	<stdlib.h>
+

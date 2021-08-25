@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1615787795 source:/media/kiran/New Volume/MCA/FYMCA/DS/Practicals/matrix multiply/main.c
+	<stdio.h>
+	<stdlib.h>
+

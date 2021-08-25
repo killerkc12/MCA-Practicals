@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1614275397 source:/media/kiran/New Volume/MCA/FYMCA/DS/DS Assignments/A2Q1.c
+	<stdio.h>
+	<stdlib.h>
+
+1614272586 source:/media/kiran/New Volume/MCA/FYMCA/DS/DS Assignments/A2Q2.c
+	<stdio.h>
+
+1614273237 source:/media/kiran/New Volume/MCA/FYMCA/DS/DS Assignments/A1Q22.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

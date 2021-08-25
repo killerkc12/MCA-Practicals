@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <head>
+    <title>Document</title>
+    <style>
+        .item{
+            border-bottom: 1px solid grey;
+            padding: 20px 0;
+        }
+        .header{
+            padding: 14px 6px;
+            cursor: pointer;
+        }
+        .body{
+            padding: 0 6px;
+            max-height: 0;
+            overflow: hidden;
+        }
+        .item.active .body{
+            max-height: 100vh;
+        }
+    </style>
+    <script>
+        $(function(){
+            $('.header').click(function(){
+                $('item').removeClass('active');
+                $(this).parent().addClass('active');
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="accordion">
+        <div class="item">
+            <div class="header">
+                <h1>Header 1</h1>
+            </div>
+            <div class="body">
+                This is header 1
+            </div>
+        </div>
+        <div class="item active">
+            <div class="header">
+                <h1>Header 2</h1>
+            </div>
+            <div class="body">
+                This is header 2
+            </div>
+        </div>
+        <div class="item">
+            <div class="header">
+                <h1>Header 3</h1>
+            </div>
+            <div class="body">
+                This is header 3
+            </div>
+        </div>
+    </div>
+</body>
+</html>

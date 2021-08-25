@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<script>
+    function validate(event) {
+        var name = document.getElementById("uname").value;
+        var mob = document.getElementById("mobno").value;
+        if (name.length == 0) {
+        alert("Empty fields are not allowed.");
+        } else if (mob.length == 0) {
+        alert("Empty fields are not allowed.");
+        }
+        if (/^[A-Za-z ]+$/.test(name)) {
+        } else {
+        alert("Name should have only letters .");
+        }
+        if (/^\d{10}$/.test(mob)) {
+        } else {
+        alert("Mobile number should have 10 digits.");
+        }
+ }
+</script>
+<body style="text-align: center;margin-top: 200px;">
+    <form onsubmit="validate()">
+        <font>Name:</font><br />
+        <input type="text" id="uname" /><br />
+        <font>Mobile No:</font><br />
+        <input type="text" id="mobno" /><br /><br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

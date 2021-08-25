@@ -1,0 +1,29 @@
+p {
+    border: green;
+    border-style: groove;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 10px;
+    width: 250px;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: green !important;
+}
+
+a:link {
+    color: green ;
+}
+
+a:active {
+    color: red !important;
+}
+
+a:visited {
+    color: blue;
+}

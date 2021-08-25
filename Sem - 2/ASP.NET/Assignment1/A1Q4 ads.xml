@@ -1,0 +1,16 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>https://lh3.googleusercontent.com/proxy/C_vDZcoMyRMV-VJZGoiv-TQFt6U3lgIhFo44niAXhfr3zpsJR5RZv2OjQBw1lJoaJgNwbQX35QnfHBx-6CHGYozuwavTLxv66HRq436KB1EQFPEGLxpHOzbJSbXOlKtGoKXQj-QZB89JzlRXTvhpRhSIEp41</ImageUrl>
+    <NavigateUrl>https://www.amazon.com</NavigateUrl>
+    <AlternateText>Welcome to Amazon</AlternateText>
+    <Keyword>websites</Keyword>
+    <Impressions>50</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>https://image4.owler.com/logo/fabmart_owler_20161111_070037_original.png</ImageUrl>
+    <NavigateUrl>https://www.fabmart.com</NavigateUrl>
+    <AlternateText>Welcome to Fabmart</AlternateText>
+    <Keyword>websites</Keyword>
+    <Impressions>40</Impressions>
+  </Ad>
+</Advertisements>

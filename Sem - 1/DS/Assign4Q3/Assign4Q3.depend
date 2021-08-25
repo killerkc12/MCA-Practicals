@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616850229 source:/media/kiran/New Volume/MCA/FYMCA/DS/Practicals/Assign4Q3/main.c
+	<stdio.h>
+	<stdlib.h>
+

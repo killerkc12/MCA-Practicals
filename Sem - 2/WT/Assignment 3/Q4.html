@@ -1,0 +1,72 @@
+<html>
+ <head>
+ <title></title>
+ <script type="text/javascript">
+ function validate()
+ {
+    var loginName = document.getElementById("txtLoginName").value;
+    var i;
+    var ch;
+    for(i=0; i<loginName.length; i++)
+    {
+        ch=loginName.charAt(i);
+        if(!((ch >= 'A' && ch <= 'Z') || (ch >='a' && ch <='z')))
+        {
+            alert("Invalid Name");
+            return false;
+        }
+    }
+    var password = document.getElementById("txtPass").value;
+    if(!(password.length >=8 && password.length <=15))
+    {
+        alert("Invalid Password");
+        return false;
+    }
+    var agree = document.getElementById("cbAgree").value;
+    if(agree.checked == false)
+    { 
+        alert("You must agree");
+        return false;
+    }
+    var no = document.getElementById("txtmob").value;
+    if(no.length!=10)
+    {
+        alert("Invalid Number");
+        return false;
+    }
+    var pno = document.getElementById("txtpin").value;
+    if(pno.length!=6)
+    {
+        alert("Invalid pin");
+        return false;
+    }
+ }
+ </script>
+ </head>
+ <body style="text-align: center; margin-top: 200px;">
+    <form action="welcome.html" methhod="post" onSubmit="return validate()" >
+        <table align="center" cellspacing="5" cellpadding="5" border="1">
+            <tr>
+                <td>Login Name:</td>
+                <td><input type="text" id="txtLoginName"/></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="Password" id="txtPass"/></td>
+            </tr>
+            <tr>
+                <td>Mobile number: </td>
+                <td><input type="Mobile no" id="txtmob"/></td>
+            </tr>
+            <tr>
+                <td>Pincode: </td>
+                <td><input type="Pincode" id="txtpin"/></td>
+            </tr>
+            <tr>
+                <td>I agree<input type="checkbox" id="cbAgree"></td>
+                <td style="text-align: center;"><input type="submit" value="login" id="btnSubmit"/></td>
+            </tr>
+        </table>
+    </form>
+ </body>
+</html>

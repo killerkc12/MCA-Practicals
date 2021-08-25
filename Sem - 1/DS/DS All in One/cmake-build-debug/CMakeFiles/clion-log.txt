@@ -1,0 +1,4 @@
+/home/kiran/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.6693.114/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/media/kiran/Work-Space/FYMCA/DS/DS All in One"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/kiran/Work-Space/FYMCA/DS/DS All in One/cmake-build-debug

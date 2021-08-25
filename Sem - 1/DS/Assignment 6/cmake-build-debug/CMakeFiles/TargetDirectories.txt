@@ -1,0 +1,3 @@
+/media/kiran/Work-Space/FYMCA/DS/Assignment 6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/kiran/Work-Space/FYMCA/DS/Assignment 6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/kiran/Work-Space/FYMCA/DS/Assignment 6/cmake-build-debug/CMakeFiles/Assignment_6.dir
