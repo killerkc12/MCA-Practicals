@@ -1,0 +1,100 @@
+<html ng-App="countryModule">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Assignment-2 Q2</title>
+    <script>
+        var countryModule = angular.module("countryModule", []);
+        countryModule.controller("countryController", function($scope) {
+            var country1 = {
+                    countryName: "India",
+                    capitalName: "New Delhi",
+                    countryFlag: "https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg",
+                };
+            var country2 = {
+                    countryName: "USA",
+                    capitalName: "Washington DC",
+                    countryFlag: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+                };
+            var country3 = {
+                    countryName: "UK",
+                    capitalName: "London",
+                    countryFlag: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
+                };
+            var country4 = {
+                    countryName: "Canada",
+                    capitalName: "Ottawa",
+                    countryFlag: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1200px-Flag_of_Canada.svg.png",
+                };
+            var country5 = {
+                    countryName: "Australia",
+                    capitalName: "Canberra",
+                    countryFlag: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/1200px-Flag_of_Australia.svg.png",
+                };
+            $scope.country1 = country1;
+            $scope.country2 = country2;
+            $scope.country3 = country3;
+            $scope.country4 = country4;
+            $scope.country5 = country5;
+        });
+    </script>
+</head>
+<body class="row">
+    <div ng-Controller="countryController" class="col-md-8 mx-auto shadow mt-5">
+        <table class="table table-striped table-hover text-center">
+            <h1 class="text-center">Country Information</h1>
+            <thead>
+              <tr>
+                <th scope="col">Country Name</th>
+                <th scope="col">Capital Name</th>
+                <th scope="col">Country Flag</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{country1.countryName}}</td>
+                <td>{{country1.capitalName}}</td>
+                <td>
+                    <img ng-src="{{country1.countryFlag}}" alt="{{country1.countryName}}" width="50px" >
+                </td>
+            </tr>
+            <tr>
+                <td>{{country2.countryName}}</td>
+                <td>{{country2.capitalName}}</td>
+                <td>
+                    <img ng-src="{{country2.countryFlag}}" alt="{{country2.countryName}}" width="50px" >
+                </td>
+            </tr>
+            <tr>
+                <td>{{country3.countryName}}</td>
+                <td>{{country3.capitalName}}</td>
+                <td>
+                    <img ng-src="{{country3.countryFlag}}" alt="{{country3.countryName}}" width="50px" >
+                </td>
+            </tr>
+            <tr>
+                <td>{{country4.countryName}}</td>
+                <td>{{country4.capitalName}}</td>
+                <td>
+                    <img ng-src="{{country4.countryFlag}}" alt="{{country4.countryName}}" width="50px" >
+                </td>
+            </tr>
+            <tr>
+                <td>{{country5.countryName}}</td>
+                <td>{{country5.capitalName}}</td>
+                <td>
+                    <img ng-src="{{country5.countryFlag}}" alt="{{country5.countryName}}" width="50px" >
+                </td>
+            </tr>
+            </tbody>
+          </table>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
